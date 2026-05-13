@@ -3,3 +3,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+nav a.active{
+    color: red;
+    font-weight: bold;
+}
